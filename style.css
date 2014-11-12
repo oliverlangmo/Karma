@@ -1,43 +1,126 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+
+a {
+  text-decoration: none;
+  color: #222;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+.top-navigation {
+    background-color: #ffffff;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    top:0;
+    box-shadow: 1px 1px 1px black;
 }
-body {
-	line-height: 1;
+.top-navigation img {
+    width: 100px;
+    height: 50px;
+    padding-left: 150px;
+    padding-top: 15px;
+    padding-right: 15px;
+    /*float: left;*/
 }
-ol, ul {
-	list-style: none;
+.top-navigation > .links li {
+	/*float: right;*/
+	}
+.links li {
+	display: inline-block;
+	padding: 1em;
 }
-blockquote, q {
-	quotes: none;
+.links {
+	font-family: 'Roboto', sans-serif; 
+font-size: 16px; 
+color: #D9DDE4; 
+letter-spacing: 0.03em;
+width: 50%;
+position: absolute;
+right: 0;
+top:0;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+.top-navigation .links > .active {
+    color: #404245;
+    font-weight: 600;
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+.top-navigation .links li:hover {
+	cursor: pointer;
+	color: #333333;
+}
+.Introduction-section {
+	background: url(img/first-background.jpg); 
+  background-size: 100% 100%, auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 45.938rem;
+  overflow: auto;
+  margin: 0;
+}
+
+h1 { 
+  margin-top: 1.5rem;
+  font-size: 3.125rem;
+}
+h3 {
+margin-top: 1.25rem;
+font-size: 1.563rem;
+}
+h1, h3 {
+  color: white;
+  text-align: center;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  top: 40%;
+  position: relative;
+}
+
+.Big-Button {
+  background-color: #f15a29;
+  border-color: #f15a29;
+  text-shadow: none;
+  border-style: none;
+  border-radius: 4px;
+  padding: 16px 26px;
+  line-height: 1.33;
+  width: 110px;
+  display: block;
+  margin: 0 auto;
+  font-size: 18px;
+  color: white;
+  position: relative;
+  top: 45%;
+}
+.Big-Button > button {
+  border: none;
+background-color: transparent;
+color: white;
+font-family: 'Roboto', sans-serif;
+font-size: 18px;
+}
+.cases h2 {
+  font-size: 2.75rem;
+margin: 1.625rem 0 3.125rem;
+font-weight: 300;
+font-family: 'Roboto', sans-serif;
+}
+.cases .content {
+  margin-top: 7.875rem;
+  text-align: center;
+}
+.devices li {
+  width: 33%;
+    display: inline-block;
+    border: none;
+    height: 4em;
+    font-family: 'Roboto', sans-serif;
+}
+.caption h4{
+  color:black;
+  font-size: 1.563rem;
+  font-weight: 400;
+}
+.cases > .p {
+  font-weight: 300;
+  font-size: 1.313rem;
+}
+.shortcuts {
+  margin-top: 3.125rem;
+  display: block;
 }
