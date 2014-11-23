@@ -129,17 +129,44 @@ font-family: 'Roboto', sans-serif;
   text-align: center;
   font-family: 'Roboto', sans-serif;
 }
+.social{ 
+text-align: center;
+}
 .social .icons > li {
   border-radius: 10px;
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 2.8rem;
+  height: .5rem;
   display: inline-block;
-  margin: 1.25rem 5px;
+  margin: 1.40rem 5px;
   border: 1px solid #eaebec;
-  padding: 0.625rem 0;
-  text-align: center;
+  padding: 1.0rem 0;
 }
-h5{
+h5 {
   text-align: center;
   font-family: 'Roboto', sans-serif;
+  font-size: 1.0em;
+}
+
+.fa-twitter {
+  content: "\f099";
+}
+.fa {
+display: inline-block;
+font: normal normal normal 14px/1 FontAwesome;
+font-size: inherit;
+text-align: center;
+}
+.social .facebook {
+color: #4c66a4;
+}
+.social .Instagram {
+color: #3f729b;
+}
+.social .twitter {
+  color: #55acee;
+}
+.social .copy {
+font-size: 0.9rem;
+font-weight: 300;
+color: #838994;
 }
