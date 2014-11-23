@@ -139,7 +139,13 @@ text-align: center;
   display: inline-block;
   margin: 1.40rem 5px;
   border: 1px solid #eaebec;
+  border-style: solid;
+  border-color: black;
+  border-width:1px;
   padding: 0rem 0;
+}
+.icons{
+  padding:0;
 }
 h5 {
   text-align: center;
