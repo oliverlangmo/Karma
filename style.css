@@ -156,11 +156,12 @@ h5 {
 .fa-twitter {
   content: "\f099";
 }
-.fa {
+.icons .fa {
 display: inline-block;
 font: normal normal normal 14px/1 FontAwesome;
 font-size: inherit;
 text-align: center;
+line-height: 2em;
 }
 .social .facebook {
 color: #4c66a4;
