@@ -3,6 +3,9 @@ a {
   text-decoration: none;
   color: #222;
 }
+body {
+  margin: 0;
+}
 .top-navigation {
     background-color: #ffffff;
     position: fixed;
@@ -52,6 +55,9 @@ top:0;
   height: 45.938rem;
   overflow: auto;
   margin: 0;
+  border: 0;
+  padding: 0;
+  width: 100%;
 }
 
 h1 { 
@@ -155,6 +161,10 @@ h5 {
 
 .fa-twitter {
   content: "\f099";
+  font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
 }
 .icons .fa {
 display: inline-block;
